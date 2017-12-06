@@ -18,11 +18,13 @@ Create all the necessary things to register a new jedi.
 Hint: All files that you should modify are in `./src`
 
 ### Test the addition
-Create all the necessary things to register a new jedi.
+Implement tests to make sure the last feature is not broken had you to refactor the app.
 
 ### Add an extra feature of your choice
 We want creative developers.
-Please take some time to add a feature that shows your value : how you think, how you master the react environment, how you handle complicated things
+Please take some time to add a feature which shows your value : how you think, how you master the react environment, how you handle complicated things
+
+=> are your tests telling you that the first feature still works?
 
 ## Getting started
 Launch the front-end server with:
