@@ -3,6 +3,7 @@
  */
 
 import { combineReducers } from 'redux';
+import {reducer as formReducer} from 'redux-form';
 
 function jediReducer(state = [], action) {
   switch (action.type) {
@@ -18,4 +19,5 @@ function jediReducer(state = [], action) {
 
 export default combineReducers({
   jedi: jediReducer,
+  form: formReducer
 });

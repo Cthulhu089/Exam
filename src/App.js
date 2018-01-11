@@ -2,6 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import logo from './logo.svg';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 import { fetchJedi } from './action';
 
@@ -30,10 +31,13 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         {jedi.map((jedi, index) => (
-          <div key={index}>
+          <div key={index}>            
             Jedi: id: {jedi.id} name: {jedi.name}
           </div>
         ))}
+        <Link className="btn btn-primary" to="/new/jedi">
+            Add a new Jedi
+        </Link>
       </div>
     );
   }
